@@ -15,6 +15,7 @@ install:
 
 #exportando variável para rodar coverage
 script: 
+  - pip install coverage
   - export PATH=/home/$USER/.local/bin:$PATH
  
  # Definido o script de Teste que deve rodar toda vez que o código for alterado.
