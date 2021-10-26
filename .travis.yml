@@ -15,7 +15,7 @@ install:
 
 #exportando variável para rodar coverage
 script: 
-  - export PATH=/home/vagrant/.local/bin:$PATH
+  - export PATH=/home/$USER/.local/bin:$PATH
  
  # Definido o script de Teste que deve rodar toda vez que o código for alterado.
 script:
