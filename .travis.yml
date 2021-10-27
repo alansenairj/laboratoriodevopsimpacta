@@ -33,7 +33,7 @@ deploy:
 addons:
   sonarcloud:
     organization: alansenairj
-    token: ${06bc730cf14fd415c199470f79d19f6a0244eee5}      
+    token: ${10f553a3b9d0127a5aa0f5a7bb0793f23ee33cbf}      
 
 # Define o script de Teste que deve rodar toda vez que o código for alterado.                                                                                                                            
 script:                                                                                                                                                                                                  
