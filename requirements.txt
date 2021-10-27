@@ -1,4 +1,6 @@
-flask                                                                                                                                                                                       
+                                                                                                                                                                                       
 gunicorn
-Flask-WTF
+
 pytest
+Flask==2.0.2
+Flask_WTF==0.15.1
