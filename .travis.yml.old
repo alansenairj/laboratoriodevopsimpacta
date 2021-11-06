@@ -29,7 +29,7 @@ addons:
     organization: alansenairj
     #token: ${SONAR_TOKEN}      
 
-# Define o script de Teste que deve rodar toda vez que o código for alterado.                                                                                                                            
+# Define o script de Teste que deve rodar toda vez que o código for alterado.                                                                                                                              
 script:                                                                                                                                                                                                  
   - coverage report app.py || travis_terminate 1;
   - coverage xml app.py || travis_terminate 1;

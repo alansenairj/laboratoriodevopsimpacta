@@ -23,7 +23,7 @@ jobs:
       install:
         - pip install flask flask-wtf coverage
 
-      # Defini o script de Teste que deve rodar toda vez que o código for alterado.
+      # Defini o script de Teste que deve rodar toda vez que o código for alterado.  
       script:
         - coverage run test.py || travis_terminate 1;
         - coverage report app.py || travis_terminate 1;
