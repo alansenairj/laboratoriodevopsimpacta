@@ -23,7 +23,7 @@ jobs:
     - stage: Build & Tests
       name: "Unit Test, Quality & Security"
 
-      # Instalação de Módulos que são necessários para a Aplicação.
+      # Instalação de Módulos que são necessários para a Aplicação. 
       install:
         - pip install flask flask-wtf coverage
 
