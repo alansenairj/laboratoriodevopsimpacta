@@ -60,7 +60,7 @@ jobs:
       # Definir o Deploy no Google Cloud
       deploy:
         provider: gae
-        keyfile: /home/alan/Lab Devops/gcpkey.json
+        keyfile: /home/alan/Lab_Devops/gcpkey.json
         project: labdevops-alan
         on:
           branch: main
