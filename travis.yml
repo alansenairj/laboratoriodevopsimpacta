@@ -19,11 +19,11 @@ jobs:
     - stage: Build & Tests
       name: "Unit Test, Quality & Security"
 
-      # Instalação de Módulos que são necessários para a Aplicação.   
+      # Instalação de Módulos que são necessários para a Aplicação.
       install:
         - pip install flask flask-wtf coverage
 
-      # Defini o script de Teste que deve rodar toda vez que o código for alterado.    
+      # Defini o script de Teste que deve rodar toda vez que o código for alterado.
       script:
         - coverage run test.py || travis_terminate 1;
         - coverage report app.py || travis_terminate 1;
@@ -47,4 +47,4 @@ jobs:
     - stage: Stage Test
       name: GET URL Stage
       script:
-        - curl https://devopslab-alanapp.herokuapp.com/ | grep Hello || travis_terminate 1;      
+        - curl https://devopslab-alanapp.herokuapp.com/ | grep Hello || travis_terminate 1;
